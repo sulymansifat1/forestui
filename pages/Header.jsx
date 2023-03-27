@@ -3,7 +3,7 @@ import NavBer from './NavBer'
 
 function Header() {
   return (
-    <div className='container m-auto bg-cover bg bg-center h-screen'>
+    <div className="bg-[url('/background.jpg')] bg-cover bg-fixed bg-center h-screen ">
         <NavBer/>
     </div>
   )
